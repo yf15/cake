@@ -7,8 +7,8 @@
 		<?php echo $title_for_layout; ?>
 	</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="">
-	<meta name="author" content="">
+	<meta name="description" content="Personal">
+	<meta name="author" content="Luke Ye">
 
 	<!-- Le styles -->
 	<?php echo $this->Html->css('bootstrap'); ?>
@@ -32,6 +32,9 @@
 	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/ico/apple-touch-icon-72-precomposed.png">
 	<link rel="apple-touch-icon-precomposed" href="/ico/apple-touch-icon-57-precomposed.png">
 	-->
+
+	<link rel="icon" href="../img/rainbow.png" type="image/png" >
+
 	<?php
 	echo $this->fetch('meta');
 	echo $this->fetch('css');
@@ -53,7 +56,7 @@
 					<ul class="nav">
 						<li class="active"><a href="#">Home</a></li>
 						<li><a href="http://lluvia.cc">About</a></li>
-						<li><a href="#contact">Contact</a></li>
+						
 					</ul>
 				</div><!--/.nav-collapse -->
 			</div>
