@@ -1,0 +1,257 @@
+2014-08-02 11:42:30 Error: [MissingDatasourceConfigException] The datasource configuration "default" was not found in database.php
+Exception Attributes: array (
+  'config' => 'default',
+)
+Request URL: /cake/posts
+Stack Trace:
+#0 D:\XAMPP\htdocs\cake\lib\Cake\Model\ConnectionManager.php(91): ConnectionManager::_getConnectionObject('default')
+#1 D:\XAMPP\htdocs\cake\lib\Cake\Model\Model.php(3482): ConnectionManager::getDataSource('default')
+#2 D:\XAMPP\htdocs\cake\lib\Cake\Model\Model.php(1128): Model->setDataSource('default')
+#3 D:\XAMPP\htdocs\cake\lib\Cake\Model\Model.php(3504): Model->setSource('posts')
+#4 D:\XAMPP\htdocs\cake\lib\Cake\Model\Model.php(2905): Model->getDataSource()
+#5 D:\XAMPP\htdocs\cake\lib\Cake\Model\Model.php(2877): Model->_readDataSource('all', Array)
+#6 D:\XAMPP\htdocs\cake\app\Controller\PostsController.php(8): Model->find('all')
+#7 [internal function]: PostsController->index()
+#8 D:\XAMPP\htdocs\cake\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#9 D:\XAMPP\htdocs\cake\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 D:\XAMPP\htdocs\cake\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#11 D:\XAMPP\htdocs\cake\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-08-02 11:42:31 Error: [MissingDatasourceConfigException] The datasource configuration "default" was not found in database.php
+Exception Attributes: array (
+  'config' => 'default',
+)
+Request URL: /cake/posts
+Stack Trace:
+#0 D:\XAMPP\htdocs\cake\lib\Cake\Model\ConnectionManager.php(91): ConnectionManager::_getConnectionObject('default')
+#1 D:\XAMPP\htdocs\cake\lib\Cake\Model\Model.php(3482): ConnectionManager::getDataSource('default')
+#2 D:\XAMPP\htdocs\cake\lib\Cake\Model\Model.php(1128): Model->setDataSource('default')
+#3 D:\XAMPP\htdocs\cake\lib\Cake\Model\Model.php(3504): Model->setSource('posts')
+#4 D:\XAMPP\htdocs\cake\lib\Cake\Model\Model.php(2905): Model->getDataSource()
+#5 D:\XAMPP\htdocs\cake\lib\Cake\Model\Model.php(2877): Model->_readDataSource('all', Array)
+#6 D:\XAMPP\htdocs\cake\app\Controller\PostsController.php(8): Model->find('all')
+#7 [internal function]: PostsController->index()
+#8 D:\XAMPP\htdocs\cake\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#9 D:\XAMPP\htdocs\cake\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 D:\XAMPP\htdocs\cake\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#11 D:\XAMPP\htdocs\cake\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-08-02 11:42:31 Error: [MissingDatasourceConfigException] The datasource configuration "default" was not found in database.php
+Exception Attributes: array (
+  'config' => 'default',
+)
+Request URL: /cake/posts
+Stack Trace:
+#0 D:\XAMPP\htdocs\cake\lib\Cake\Model\ConnectionManager.php(91): ConnectionManager::_getConnectionObject('default')
+#1 D:\XAMPP\htdocs\cake\lib\Cake\Model\Model.php(3482): ConnectionManager::getDataSource('default')
+#2 D:\XAMPP\htdocs\cake\lib\Cake\Model\Model.php(1128): Model->setDataSource('default')
+#3 D:\XAMPP\htdocs\cake\lib\Cake\Model\Model.php(3504): Model->setSource('posts')
+#4 D:\XAMPP\htdocs\cake\lib\Cake\Model\Model.php(2905): Model->getDataSource()
+#5 D:\XAMPP\htdocs\cake\lib\Cake\Model\Model.php(2877): Model->_readDataSource('all', Array)
+#6 D:\XAMPP\htdocs\cake\app\Controller\PostsController.php(8): Model->find('all')
+#7 [internal function]: PostsController->index()
+#8 D:\XAMPP\htdocs\cake\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#9 D:\XAMPP\htdocs\cake\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 D:\XAMPP\htdocs\cake\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#11 D:\XAMPP\htdocs\cake\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-08-02 11:42:32 Error: [MissingDatasourceConfigException] The datasource configuration "default" was not found in database.php
+Exception Attributes: array (
+  'config' => 'default',
+)
+Request URL: /cake/posts
+Stack Trace:
+#0 D:\XAMPP\htdocs\cake\lib\Cake\Model\ConnectionManager.php(91): ConnectionManager::_getConnectionObject('default')
+#1 D:\XAMPP\htdocs\cake\lib\Cake\Model\Model.php(3482): ConnectionManager::getDataSource('default')
+#2 D:\XAMPP\htdocs\cake\lib\Cake\Model\Model.php(1128): Model->setDataSource('default')
+#3 D:\XAMPP\htdocs\cake\lib\Cake\Model\Model.php(3504): Model->setSource('posts')
+#4 D:\XAMPP\htdocs\cake\lib\Cake\Model\Model.php(2905): Model->getDataSource()
+#5 D:\XAMPP\htdocs\cake\lib\Cake\Model\Model.php(2877): Model->_readDataSource('all', Array)
+#6 D:\XAMPP\htdocs\cake\app\Controller\PostsController.php(8): Model->find('all')
+#7 [internal function]: PostsController->index()
+#8 D:\XAMPP\htdocs\cake\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#9 D:\XAMPP\htdocs\cake\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 D:\XAMPP\htdocs\cake\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#11 D:\XAMPP\htdocs\cake\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-08-02 11:48:48 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [1049] Unknown database \'cake\'',
+  'enabled' => true,
+)
+Request URL: /cake/posts
+Stack Trace:
+#0 D:\XAMPP\htdocs\cake\lib\Cake\Model\Datasource\DboSource.php(260): Mysql->connect()
+#1 D:\XAMPP\htdocs\cake\lib\Cake\Model\ConnectionManager.php(105): DboSource->__construct(Array)
+#2 D:\XAMPP\htdocs\cake\lib\Cake\Model\Model.php(3482): ConnectionManager::getDataSource('default')
+#3 D:\XAMPP\htdocs\cake\lib\Cake\Model\Model.php(1128): Model->setDataSource('default')
+#4 D:\XAMPP\htdocs\cake\lib\Cake\Model\Model.php(3504): Model->setSource('posts')
+#5 D:\XAMPP\htdocs\cake\lib\Cake\Model\Model.php(2905): Model->getDataSource()
+#6 D:\XAMPP\htdocs\cake\lib\Cake\Model\Model.php(2877): Model->_readDataSource('all', Array)
+#7 D:\XAMPP\htdocs\cake\app\Controller\PostsController.php(8): Model->find('all')
+#8 [internal function]: PostsController->index()
+#9 D:\XAMPP\htdocs\cake\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#10 D:\XAMPP\htdocs\cake\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 D:\XAMPP\htdocs\cake\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#12 D:\XAMPP\htdocs\cake\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-08-02 11:49:39 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [1049] Unknown database \'cake\'',
+  'enabled' => true,
+)
+Request URL: /cake/posts
+Stack Trace:
+#0 D:\XAMPP\htdocs\cake\lib\Cake\Model\Datasource\DboSource.php(260): Mysql->connect()
+#1 D:\XAMPP\htdocs\cake\lib\Cake\Model\ConnectionManager.php(105): DboSource->__construct(Array)
+#2 D:\XAMPP\htdocs\cake\lib\Cake\Model\Model.php(3482): ConnectionManager::getDataSource('default')
+#3 D:\XAMPP\htdocs\cake\lib\Cake\Model\Model.php(1128): Model->setDataSource('default')
+#4 D:\XAMPP\htdocs\cake\lib\Cake\Model\Model.php(3504): Model->setSource('posts')
+#5 D:\XAMPP\htdocs\cake\lib\Cake\Model\Model.php(2905): Model->getDataSource()
+#6 D:\XAMPP\htdocs\cake\lib\Cake\Model\Model.php(2877): Model->_readDataSource('all', Array)
+#7 D:\XAMPP\htdocs\cake\app\Controller\PostsController.php(8): Model->find('all')
+#8 [internal function]: PostsController->index()
+#9 D:\XAMPP\htdocs\cake\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#10 D:\XAMPP\htdocs\cake\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 D:\XAMPP\htdocs\cake\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#12 D:\XAMPP\htdocs\cake\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-08-02 11:49:40 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [1049] Unknown database \'cake\'',
+  'enabled' => true,
+)
+Request URL: /cake/posts
+Stack Trace:
+#0 D:\XAMPP\htdocs\cake\lib\Cake\Model\Datasource\DboSource.php(260): Mysql->connect()
+#1 D:\XAMPP\htdocs\cake\lib\Cake\Model\ConnectionManager.php(105): DboSource->__construct(Array)
+#2 D:\XAMPP\htdocs\cake\lib\Cake\Model\Model.php(3482): ConnectionManager::getDataSource('default')
+#3 D:\XAMPP\htdocs\cake\lib\Cake\Model\Model.php(1128): Model->setDataSource('default')
+#4 D:\XAMPP\htdocs\cake\lib\Cake\Model\Model.php(3504): Model->setSource('posts')
+#5 D:\XAMPP\htdocs\cake\lib\Cake\Model\Model.php(2905): Model->getDataSource()
+#6 D:\XAMPP\htdocs\cake\lib\Cake\Model\Model.php(2877): Model->_readDataSource('all', Array)
+#7 D:\XAMPP\htdocs\cake\app\Controller\PostsController.php(8): Model->find('all')
+#8 [internal function]: PostsController->index()
+#9 D:\XAMPP\htdocs\cake\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#10 D:\XAMPP\htdocs\cake\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 D:\XAMPP\htdocs\cake\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#12 D:\XAMPP\htdocs\cake\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-08-02 11:51:35 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2002] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+',
+  'enabled' => true,
+)
+Request URL: /cake/posts
+Stack Trace:
+#0 D:\XAMPP\htdocs\cake\lib\Cake\Model\Datasource\DboSource.php(260): Mysql->connect()
+#1 D:\XAMPP\htdocs\cake\lib\Cake\Model\ConnectionManager.php(105): DboSource->__construct(Array)
+#2 D:\XAMPP\htdocs\cake\lib\Cake\Model\Model.php(3482): ConnectionManager::getDataSource('default')
+#3 D:\XAMPP\htdocs\cake\lib\Cake\Model\Model.php(1128): Model->setDataSource('default')
+#4 D:\XAMPP\htdocs\cake\lib\Cake\Model\Model.php(3504): Model->setSource('posts')
+#5 D:\XAMPP\htdocs\cake\lib\Cake\Model\Model.php(2905): Model->getDataSource()
+#6 D:\XAMPP\htdocs\cake\lib\Cake\Model\Model.php(2877): Model->_readDataSource('all', Array)
+#7 D:\XAMPP\htdocs\cake\app\Controller\PostsController.php(8): Model->find('all')
+#8 [internal function]: PostsController->index()
+#9 D:\XAMPP\htdocs\cake\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#10 D:\XAMPP\htdocs\cake\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 D:\XAMPP\htdocs\cake\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#12 D:\XAMPP\htdocs\cake\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-08-02 11:51:54 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2002] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+',
+  'enabled' => true,
+)
+Request URL: /cake/posts
+Stack Trace:
+#0 D:\XAMPP\htdocs\cake\lib\Cake\Model\Datasource\DboSource.php(260): Mysql->connect()
+#1 D:\XAMPP\htdocs\cake\lib\Cake\Model\ConnectionManager.php(105): DboSource->__construct(Array)
+#2 D:\XAMPP\htdocs\cake\lib\Cake\Model\Model.php(3482): ConnectionManager::getDataSource('default')
+#3 D:\XAMPP\htdocs\cake\lib\Cake\Model\Model.php(1128): Model->setDataSource('default')
+#4 D:\XAMPP\htdocs\cake\lib\Cake\Model\Model.php(3504): Model->setSource('posts')
+#5 D:\XAMPP\htdocs\cake\lib\Cake\Model\Model.php(2905): Model->getDataSource()
+#6 D:\XAMPP\htdocs\cake\lib\Cake\Model\Model.php(2877): Model->_readDataSource('all', Array)
+#7 D:\XAMPP\htdocs\cake\app\Controller\PostsController.php(8): Model->find('all')
+#8 [internal function]: PostsController->index()
+#9 D:\XAMPP\htdocs\cake\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#10 D:\XAMPP\htdocs\cake\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 D:\XAMPP\htdocs\cake\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#12 D:\XAMPP\htdocs\cake\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-08-02 11:52:35 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2002] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+',
+  'enabled' => true,
+)
+Request URL: /cake/posts
+Stack Trace:
+#0 D:\XAMPP\htdocs\cake\lib\Cake\Model\Datasource\DboSource.php(260): Mysql->connect()
+#1 D:\XAMPP\htdocs\cake\lib\Cake\Model\ConnectionManager.php(105): DboSource->__construct(Array)
+#2 D:\XAMPP\htdocs\cake\lib\Cake\Model\Model.php(3482): ConnectionManager::getDataSource('default')
+#3 D:\XAMPP\htdocs\cake\lib\Cake\Model\Model.php(1128): Model->setDataSource('default')
+#4 D:\XAMPP\htdocs\cake\lib\Cake\Model\Model.php(3504): Model->setSource('posts')
+#5 D:\XAMPP\htdocs\cake\lib\Cake\Model\Model.php(2905): Model->getDataSource()
+#6 D:\XAMPP\htdocs\cake\lib\Cake\Model\Model.php(2877): Model->_readDataSource('all', Array)
+#7 D:\XAMPP\htdocs\cake\app\Controller\PostsController.php(8): Model->find('all')
+#8 [internal function]: PostsController->index()
+#9 D:\XAMPP\htdocs\cake\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#10 D:\XAMPP\htdocs\cake\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 D:\XAMPP\htdocs\cake\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#12 D:\XAMPP\htdocs\cake\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-08-02 11:53:32 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2002] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+',
+  'enabled' => true,
+)
+Request URL: /cake/posts
+Stack Trace:
+#0 D:\XAMPP\htdocs\cake\lib\Cake\Model\Datasource\DboSource.php(260): Mysql->connect()
+#1 D:\XAMPP\htdocs\cake\lib\Cake\Model\ConnectionManager.php(105): DboSource->__construct(Array)
+#2 D:\XAMPP\htdocs\cake\lib\Cake\Model\Model.php(3482): ConnectionManager::getDataSource('default')
+#3 D:\XAMPP\htdocs\cake\lib\Cake\Model\Model.php(1128): Model->setDataSource('default')
+#4 D:\XAMPP\htdocs\cake\lib\Cake\Model\Model.php(3504): Model->setSource('posts')
+#5 D:\XAMPP\htdocs\cake\lib\Cake\Model\Model.php(2905): Model->getDataSource()
+#6 D:\XAMPP\htdocs\cake\lib\Cake\Model\Model.php(2877): Model->_readDataSource('all', Array)
+#7 D:\XAMPP\htdocs\cake\app\Controller\PostsController.php(8): Model->find('all')
+#8 [internal function]: PostsController->index()
+#9 D:\XAMPP\htdocs\cake\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#10 D:\XAMPP\htdocs\cake\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 D:\XAMPP\htdocs\cake\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#12 D:\XAMPP\htdocs\cake\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-08-02 11:53:34 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2002] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+',
+  'enabled' => true,
+)
+Request URL: /cake/
+Stack Trace:
+#0 D:\XAMPP\htdocs\cake\lib\Cake\Model\Datasource\DboSource.php(260): Mysql->connect()
+#1 D:\XAMPP\htdocs\cake\lib\Cake\Model\ConnectionManager.php(105): DboSource->__construct(Array)
+#2 D:\XAMPP\htdocs\cake\lib\Cake\Model\Model.php(3482): ConnectionManager::getDataSource('default')
+#3 D:\XAMPP\htdocs\cake\lib\Cake\Model\Model.php(1128): Model->setDataSource('default')
+#4 D:\XAMPP\htdocs\cake\lib\Cake\Model\Model.php(3504): Model->setSource('posts')
+#5 D:\XAMPP\htdocs\cake\lib\Cake\Model\Model.php(800): Model->getDataSource()
+#6 D:\XAMPP\htdocs\cake\app\Controller\PostsController.php(14): Model->__call('findById', Array)
+#7 D:\XAMPP\htdocs\cake\app\Controller\PostsController.php(14): Post->findById('home')
+#8 [internal function]: PostsController->view('home')
+#9 D:\XAMPP\htdocs\cake\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#10 D:\XAMPP\htdocs\cake\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 D:\XAMPP\htdocs\cake\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#12 D:\XAMPP\htdocs\cake\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
