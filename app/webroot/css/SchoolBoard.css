@@ -1,0 +1,134 @@
+*{
+  /* CSS reset */
+  margin:0;
+  padding:0;
+}
+
+@font-face{
+  font-family:'ColoredCrayons';
+  src: url(<?php echo $this->Html->url('../files/ColoredCrayons.ttf');?>) format('trueType');
+}
+
+body {
+  background: #ffeeee;
+  color: #660000;
+  font-family:'lucida grande',verdana,helvetica,arial,sans-serif;
+  font-size:90%;
+  margin: 0;
+}
+ 
+
+ 
+#header {
+  position:fixed;
+  top: 0;
+  left: 0;
+  width:100%;
+  z-index:100;
+  background-color:#660000;
+  color:#FFFFFF;
+  height:60px;
+
+}
+
+
+
+#header_menue{
+  position:absolute;
+  bottom: 0;
+  right:0;
+  
+}
+#header_menue a{
+
+  color:pink;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+
+#header_logo a{
+  position:absolute;
+  top:50%;
+  margin-top:-0.5em;
+  font-size: 30px;
+  font-family: 'ColoredCrayons';
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+
+#container {
+  padding-top:70px;
+  width:100%;
+  padding-bottom:60px;
+
+}
+
+#sub{
+/*  width:20%;
+  z-index:100;
+  overflow: auto;*/
+}
+
+#sub-right{ 
+  /*right:0;*/
+  /*float:right;*/
+}
+
+#sub-left{
+  /*left:0;
+  float:left;*/
+}
+
+#wrapper {
+  overflow:auto;
+  padding:0 23%;
+  text-align: center;
+  height:100%;
+  color:white 20;
+}
+
+#content {
+  
+}
+
+h1 {
+  color:#660000;
+  font-size:18pt;
+}
+
+h2{
+  font-size:30pt;
+}
+
+ 
+#footer {
+  text-align:center;
+  font-size: 16px;
+  color:#990000;
+  z-index: 10px;
+  width:100%;
+  position:fixed;
+  bottom: 0;
+  border-top:1px solid #990000;
+  padding:20px 10px 0px 0px;
+}
+ 
+table {
+  margin:0 auto; /*put table in center*/
+  max-height: 20px;
+  overflow: scroll;
+}
+td {
+  padding: 2px 5px 2px 5px;
+  background-color: #FFFFFF;
+  color:#660000;
+  border: #ffeeee ;
+ 
+}
+pre {
+  background-color: #FFFFFF;
+  padding:5px 10px 5px 10px;
+  margin:10px 20px 10px 20px;
+}

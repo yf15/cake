@@ -31,4 +31,43 @@ App::uses('Controller', 'Controller');
  * @link		http://book.cakephp.org/2.0/en/controllers.html#the-app-controller
  */
 class AppController extends Controller {
+
+
+    public $helpers = array(
+        'Session',
+        'Html' => array('className' => 'TwitterBootstrap.BootstrapHtml'),
+        'Form' => array('className' => 'TwitterBootstrap.BootstrapForm'),
+        'Paginator' => array('className' => 'TwitterBootstrap.BootstrapPaginator'),
+    );
+
+
+    public $layout = 'TwitterBootstrap.default';
+
+public $components = array(
+    'Session',
+    'Auth' => array(
+        'loginRedirect' => array('controller' => 'posts', 'action' => 'index'),
+        'logoutRedirect' => array(
+            'controller' => 'pages',
+            'action' => 'display',
+            'home'
+        ),
+        'authorize' => array('Controller') // Added this line
+    )
+);
+
+public function isAuthorized($user) {
+    // Admin can access every action
+    if (isset($user['role']) && $user['role'] === 'admin') {
+        return true;
+    }
+
+    // Default deny
+    return false;
+}
+
+	public function beforeFilter(){
+		$this -> Auth -> allow('index', 'view');
+	}
+
 }
