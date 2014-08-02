@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<title>
-		<?php echo __('CakePHP: the rapid development php framework:'); ?>
+		<?php echo __('lluvia'); ?>
 		<?php echo $title_for_layout; ?>
 	</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -48,11 +48,11 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</a>
-				<a class="brand" href="#"><?php echo __('CakePHP'); ?></a>
+				<a class="brand" href="#"><?php echo ('lluvia'); ?></a>
 				<div class="nav-collapse">
 					<ul class="nav">
 						<li class="active"><a href="#">Home</a></li>
-						<li><a href="#about">About</a></li>
+						<li><a href="http://lluvia.cc">About</a></li>
 						<li><a href="#contact">Contact</a></li>
 					</ul>
 				</div><!--/.nav-collapse -->
@@ -62,7 +62,7 @@
 
 	<div class="container">
 
-		<h1>Bootstrap starter template</h1>
+		
 
 		<?php echo $this->Session->flash(); ?>
 
