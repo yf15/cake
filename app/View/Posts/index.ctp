@@ -5,6 +5,7 @@
     <thead>
     <tr>
         <th>Title</th>
+        <th>Options</th>
         <th>Created</th>
     </tr>
 <!-- Here's where we loop through our $posts array, printing out post info -->
