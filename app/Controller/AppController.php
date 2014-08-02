@@ -41,7 +41,7 @@ class AppController extends Controller {
     );
 
 
-    public $layout = 'TwitterBootstrap.default';
+//    public $layout = 'TwitterBootstrap.default';
 
 public $components = array(
     'Session',
